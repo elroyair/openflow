@@ -42,6 +42,10 @@
 #include <string.h>
 #include "compiler.h"
 
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+
 #ifndef va_copy
 #ifdef __va_copy
 #define va_copy __va_copy
